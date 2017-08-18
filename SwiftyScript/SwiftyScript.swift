@@ -11,7 +11,7 @@ import Foundation
 // MARK: - Shell Command
 public struct Shell {
 
-    @discardableResult static func command(_ args: String...) -> Int32 {
+    @discardableResult public static func command(_ args: String...) -> Int32 {
         let task = Process()
         task.launchPath = "/usr/bin/env"
         task.arguments = args
@@ -25,11 +25,11 @@ public struct Shell {
 // MARK: - String Extensions
 extension String {
 
-    func open() -> String? {
+    public func open() -> String? {
         return (try? String(contentsOfFile: self, encoding: .utf8)) ?? nil
     }
 
-    func matchedSubstrings(of regularExpression: NSRegularExpression) -> [String] {
+    public func matchedSubstrings(of regularExpression: NSRegularExpression) -> [String] {
         return regularExpression.matches(in: self, range: NSMakeRange(0, characters.count)).map { result in
             let start = index(startIndex, offsetBy: result.range.location)
             let end = index(startIndex, offsetBy: result.range.location + result.range.length)
@@ -43,7 +43,7 @@ extension String {
 // MARK: - Array Extensions
 extension Array {
 
-    func assertNoneEmpty(with name: String, errorMessage: String) {
+    public func assertNoneEmpty(with name: String, errorMessage: String) {
         guard !isEmpty else {
             print(errorMessage)
             exit(1)
@@ -56,7 +56,7 @@ extension Array {
 // MARK: - FileManager Extensions
 extension FileManager {
 
-    func paths(of types: [String], in path: String, searchPath: [String]? = nil) -> [String] {
+    public func paths(of types: [String], in path: String, searchPath: [String]? = nil) -> [String] {
         guard let subpaths = try? subpathsOfDirectory(atPath: path) else {
             return []
         }
