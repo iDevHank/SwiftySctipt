@@ -3,7 +3,7 @@
 //  SwiftySctipt
 //
 //  Created by Hank on 18/08/2017.
-//  Copyright © 2017 None. All rights reserved.
+//  Copyright © 2017 Hank. All rights reserved.
 //
 
 import Foundation

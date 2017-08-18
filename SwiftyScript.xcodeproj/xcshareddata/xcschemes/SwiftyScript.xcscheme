@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36AAEECF1F46E5BF007428B4"
-               BuildableName = "SwiftySctipt"
-               BlueprintName = "SwiftySctipt"
-               ReferencedContainer = "container:SwiftySctipt.xcodeproj">
+               BlueprintIdentifier = "36AAEEE51F46EBDC007428B4"
+               BuildableName = "SwiftyScript.framework"
+               BlueprintName = "SwiftyScript"
+               ReferencedContainer = "container:SwiftyScript.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "36AAEEEE1F46EBDC007428B4"
+               BuildableName = "SwiftyScriptTests.xctest"
+               BlueprintName = "SwiftyScriptTests"
+               ReferencedContainer = "container:SwiftyScript.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36AAEECF1F46E5BF007428B4"
-            BuildableName = "SwiftySctipt"
-            BlueprintName = "SwiftySctipt"
-            ReferencedContainer = "container:SwiftySctipt.xcodeproj">
+            BlueprintIdentifier = "36AAEEE51F46EBDC007428B4"
+            BuildableName = "SwiftyScript.framework"
+            BlueprintName = "SwiftyScript"
+            ReferencedContainer = "container:SwiftyScript.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36AAEECF1F46E5BF007428B4"
-            BuildableName = "SwiftySctipt"
-            BlueprintName = "SwiftySctipt"
-            ReferencedContainer = "container:SwiftySctipt.xcodeproj">
+            BlueprintIdentifier = "36AAEEE51F46EBDC007428B4"
+            BuildableName = "SwiftyScript.framework"
+            BlueprintName = "SwiftyScript"
+            ReferencedContainer = "container:SwiftyScript.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36AAEECF1F46E5BF007428B4"
-            BuildableName = "SwiftySctipt"
-            BlueprintName = "SwiftySctipt"
-            ReferencedContainer = "container:SwiftySctipt.xcodeproj">
+            BlueprintIdentifier = "36AAEEE51F46EBDC007428B4"
+            BuildableName = "SwiftyScript.framework"
+            BlueprintName = "SwiftyScript"
+            ReferencedContainer = "container:SwiftyScript.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
